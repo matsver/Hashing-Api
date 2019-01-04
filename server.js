@@ -25,8 +25,7 @@ app.get('/api/hash/:string', (req, res) => {
     SHA384,
     SHA512,
     MD5,
-    RIPEMD160,
-    PBKDF2
+    RIPEMD160
   });
 });
 
